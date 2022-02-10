@@ -24,7 +24,7 @@ from typing import Set, List, Any, Tuple
 from certifi import where
 from cloudscraper import create_scraper
 from icmplib import ping
-from impacket.ImpactPacket import IP, TCP, UDP, Data
+from impacket import IP, TCP, UDP, Data
 from psutil import process_iter, net_io_counters, virtual_memory, cpu_percent
 from requests import get, Session, exceptions
 from socks import socksocket, HTTP, SOCKS5, SOCKS4
